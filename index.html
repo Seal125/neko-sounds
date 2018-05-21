@@ -20,8 +20,9 @@
 
     <!-- Plugin CSS -->
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-    <script src="https://connect.soundcloud.com/sdk/sdk-3.3.0.js"></script>
+     <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script src="js/script.js"></script>
+    
     <!-- Custom styles for this template -->
     <link href="css/creative.min.css" rel="stylesheet">
 
@@ -42,7 +43,7 @@
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Sounds</a>
+              <a class="nav-link js-scroll-trigger" href="#services">Trending</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Categories</a>
@@ -60,7 +61,7 @@
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <h1 class="text-uppercase">
-              <strong>Neko Sounds V1.0 Beta</strong>
+              <strong>Neko Sounds</strong>
             </h1>
           </div>
         </div>
@@ -73,7 +74,7 @@
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading text-white">We've got what you need!</h2>
             <hr class="light my-4">
-            <p class="text-faded mb-4">Find a bunch of vocaloid and anime-related songs using our category system, or find the most popular tracks down below! Happy listening!</p>
+            <p class="text-faded mb-4">Find a bunch of vocaloid and anime-related songs using our category system, or find the most popular tracks down below! Simply click on the category you'd like to listen to and a song will pop up underneath! Happy listening!</p>
           </div>
         </div>
       </div>
@@ -83,7 +84,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Trendy Hits</h2>
+            <h2 class="section-heading">Trending Songs</h2>
             <hr class="my-4">
           </div>
         </div>
@@ -92,30 +93,38 @@
         <div class="row">
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Triple Baka!</h3>
-              <p class="text-muted mb-0">Hatsune Miku</p>
+              <iframe width="200" height="200"
+                src="https://www.youtube.com/embed/yu0HjPzFYnY">
+              </iframe>
+              <h3 class="mb-3">THE DAY</h3>
+              <p class="text-muted mb-0">My Hero Academia</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Leek Spin</h3>
-              <p class="text-muted mb-0">Hatsune Miku</p>
+              <iframe width="200" height="200"
+                src="https://www.youtube.com/embed/MO60ahwc8FI">
+              </iframe>
+              <h3 class="mb-3">Crossing Field</h3>
+              <p class="text-muted mb-0">Sword Art Online</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Carramell Dansen</h3>
-              <p class="text-muted mb-0">Unknown</p>
+              <iframe width="200" height="200"
+                src="https://www.youtube.com/embed/LnNxnL5ir0U">
+              </iframe>
+              <h3 class="mb-3">Zero Enforcer</h3>
+              <p class="text-muted mb-0">Detective Conan</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
+              <iframe width="200" height="200"
+                src="https://www.youtube.com/embed/XUhVCoTsBaM">
+              </iframe>
               <h3 class="mb-3">Awaken Pillar Men</h3>
-              <p class="text-muted mb-0">Jojos Bizarre Adventure</p>
+              <p class="text-muted mb-0">Jojo's Bizarre Adventure</p>
             </div>
           </div>
         </div>
@@ -126,7 +135,7 @@
       <div class="container-fluid p-0">
         <div class="row no-gutters popup-gallery">
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/jazz.jpg">
+            <a class="portfolio-box" src="img/portfolio/fullsize/jazz.jpg">
               <img class="img-fluid" src="img/portfolio/thumbnails/jazz.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
@@ -141,7 +150,7 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/dubstep.jpg">
+            <a class="portfolio-box" src="img/portfolio/fullsize/dubstep.jpg">
               <img class="img-fluid" src="img/portfolio/thumbnails/dubstep.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
@@ -149,14 +158,14 @@
                     Category
                   </div>
                   <div class="project-name">
-                    Dubstep
+                    Dubstep/Remix
                   </div>
                 </div>
               </div>
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/adventure.jpg">
+            <a class="portfolio-box" src="img/portfolio/fullsize/adventure.jpg">
               <img class="img-fluid" src="img/portfolio/thumbnails/adventure.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
@@ -171,7 +180,7 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/classical.jpg">
+            <a class="portfolio-box" src="img/portfolio/fullsize/classical.jpg">
               <img class="img-fluid" src="img/portfolio/thumbnails/classical.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
@@ -186,7 +195,7 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/acoustic.jpg">
+            <a class="portfolio-box" src="img/portfolio/fullsize/acoustic.jpg">
               <img class="img-fluid" src="img/portfolio/thumbnails/acoustic.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
@@ -201,7 +210,7 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/hiphop.jpg">
+            <a class="portfolio-box" src="img/portfolio/fullsize/hiphop.jpg">
               <img class="img-fluid" src="img/portfolio/thumbnails/hiphop.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
@@ -223,9 +232,11 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">View the Video Here!</h2>
+            <h2 class="section-heading text-white">Listen Here!</h2>
             <hr class="light my-4">
-            <div id="video"></div>
+            <div id="player">
+              
+            </div>
           </div>
         </div>
       </div>

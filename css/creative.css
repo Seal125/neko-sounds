@@ -29,6 +29,7 @@ a:hover {
   color: #f05f40;
 }
 
+
 h1,
 h2,
 h3,
@@ -36,15 +37,14 @@ h4,
 h5,
 h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-  color: #6D6965;
 }
 
 .bg-primary {
-  background-color: #6D6965 !important;
+  background-color: #F05F40 !important;
 }
 
 .bg-dark {
-  background-color: #6D6965 !important;
+  background-color: #212529 !important;
 }
 
 .text-faded {
@@ -60,24 +60,24 @@ section {
 }
 
 ::-moz-selection {
-  color: #6D6965;
+  color: #fff;
   background: #212529;
   text-shadow: none;
 }
 
 ::selection {
-  color: #6D6965;
+  color: #fff;
   background: #212529;
   text-shadow: none;
 }
 
 img::selection {
-  color: #6D6965;
+  color: #fff;
   background: transparent;
 }
 
 img::-moz-selection {
-  color: #6D6965;
+  color: #fff;
   background: transparent;
 }
 
@@ -93,12 +93,12 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #6D6965;
+  color: #F05F40;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #6D6965;
+  color: #f05f40;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -106,12 +106,12 @@ img::-moz-selection {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #6D6965;
+  color: #212529;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #6D6965;
+  color: #F05F40;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
@@ -310,8 +310,4 @@ header.masthead p {
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
-}
-
-.text-white {
-    color: #000;
 }
